@@ -43,9 +43,10 @@ Throughout this project, they will be referred to as **normal**, **faulty**, or 
 
 # 🗃️ Data Preview
 
-![Preview of the dataset table showing rows of labeled data](Images/datasetPreview.png)
 
-*📌 Figure 1: Preview of Excel data for one class*
+![Preview of the dataset table showing rows of labeled data](https://github.com/user-attachments/assets/05711649-3494-4b0d-b4ba-092a8337b3fe)
+
+*Figure 1: Preview of Excel data for one class*
 
 ---
 
