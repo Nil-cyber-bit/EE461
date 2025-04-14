@@ -81,14 +81,14 @@ Throughout this project, they will be referred to as **normal**, **faulty**, or 
 
 # 🎯 Purpose of the Sensors
 
-- 🔌 **Stack Voltage** and **Load Current** reflect the system's electrical output.
-- 🧪 **Anode Inlet/Outlet Pressure Sensors** measure pressure changes as hydrogen flows through the anode.
-- 💨 **Cathode Air Inlet Flow Sensor** monitors the oxygen supplied to the cathode.
-- 🌡️ **Water Inlet Temperature Sensor** ensures cool water enters to regulate system temperature.
-- 💧 **Primary Water Inlet Pressure Sensors** measure incoming water pressure (in SLPM).
-- ⚙️ **Cathode Inlet/Outlet Pressure Sensors** monitor and regulate air pressure entering/leaving the cathode.
-- 🌬️ **Cathode Inlet/Outlet Temperature Sensors** measure the temperature of air flowing through the cathode.
-- ⚖️ **Cathode Stoichiometry Sensor** calculates the required oxygen-to-hydrogen ratio for each fuel cell reaction.
+-  **Stack Voltage** and **Load Current** reflect the system's electrical output.
+- **Anode Inlet/Outlet Pressure Sensors** measure pressure changes as hydrogen flows through the anode.
+- **Cathode Air Inlet Flow Sensor** monitors the oxygen supplied to the cathode.
+- **Water Inlet Temperature Sensor** ensures cool water enters to regulate system temperature.
+- **Primary Water Inlet Pressure Sensors** measure incoming water pressure (in SLPM).
+- **Cathode Inlet/Outlet Pressure Sensors** monitor and regulate air pressure entering/leaving the cathode.
+- **Cathode Inlet/Outlet Temperature Sensors** measure the temperature of air flowing through the cathode.
+- **Cathode Stoichiometry Sensor** calculates the required oxygen-to-hydrogen ratio for each fuel cell reaction.
 
 ---
 
