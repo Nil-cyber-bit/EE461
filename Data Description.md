@@ -1,81 +1,93 @@
-# DATASET DESCRIPTION
-To study the condition of the **PEMFC** the data from the sensors monitoring hte condition is utilized. The sensor data is divided into three classes.
-1. Normal Sensor Data
-2. Faulty Sensor Data
-3. Unknown Sensor Data
-Through out this project they will be refered to as normal, faulty or unknown.
+# 📊 DATASET DESCRIPTION
 
-## Normal  Sensor Data
-- Recorded during steady-state operation under constant load current.
+To study the condition of the **PEMFC**, data from various sensors monitoring the system are utilized. The sensor data is divided into three classes:
 
-- Indicates healthy system performance without any recorded faults.
+1. ✅ **Normal Sensor Data**
+2. ⚠️ **Faulty Sensor Data**
+3. ❓ **Unknown Sensor Data**
 
+Throughout this project, they will be referred to as **normal**, **faulty**, or **unknown**.
+
+---
+
+## ✅ Normal Sensor Data
+
+- Recorded during steady-state operation under constant load current.  
+- Indicates healthy system performance without any recorded faults.  
 - Represents baseline behavior of the PEMFC with consistent sensor readings.
 
-## Faulty Sensor Data
-- Occurs during periods of transient load current, which often cause operational issues.
+---
 
-- Accompanied by system errors, such as:
-    - Membrane drying out
-    - Hydrogen supply issues
+## ⚠️ Faulty Sensor Data
 
-- Clearly identifiable due to distinct changes in sensor readings and activation of error indicators.
+- Occurs during periods of **transient load current**, which often cause operational issues.
+- Accompanied by system errors such as:
+  - 💧 Membrane drying out  
+  - 🔋 Hydrogen supply issues  
+- Clearly identifiable by:
+  - Distinct changes in sensor readings  
+  - Activation of system error indicators
 
-## Unknown Sensor Data
--Also recorded under transient load current, similar to faulty data.
+---
 
-- No faults are flagged by the system, and no error indicators are activated.
+## ❓ Unknown Sensor Data
 
-- Considered ambiguous, as it mimics faulty behavior in terms of load variation but reflects a healthy state upon analysis.
+- Also recorded under transient load current, similar to faulty data.  
+- No faults are flagged by the system, and no error indicators are activated.  
+- Considered **ambiguous**:
+  - Mimics faulty behavior in load variation  
+  - Reflects a healthy state upon deeper analysis  
+- Used to **challenge** the diagnostic system’s ability to distinguish false positives.
 
-- Used to challenge the diagnostic system’s ability to distinguish false positives.
+---
 
-# Data Preview
+# 🗃️ Data Preview
+
 ![Preview of the dataset table showing rows of labeled data](Images/datasetPreview.png)
 
-*Figure 1: Preview of excel data for on class*
+*📌 Figure 1: Preview of Excel data for one class*
 
-# Sensor Description
-| **Sensor measurement**          | **Unit** |
-|---------------------------------|----------|
-| Stack Voltage                   | V        |
-| Load current                    | A        |
-| Anode reactant flow             | SLPM     |
-| Anode inlet pressure #1         | mbar     |
-| Anode inlet pressure #2         | mbar     |
-| Anode outlet pressure #1        | mbar     |
-| Anode outlet pressure #2        | mbar     |
-| Cathode air inlet flow          | SLPM     |
-| Water inlet temperature         | °C       |
-| Primary water inlet pressure #1 | mbar     |
-| Primary water inlet pressure #  | mbar     |
-| Cathode inlet pressure #1       | mbar     |
-| Cathode inlet pressure #2       | mbar     |
-| Cathode outlet pressure #1      | mbar     |
-| Cathode outlet pressure #2      | mbar     |
-| Cathode stoichiometry           | N/A      |
-| Cathode inlet temperature #1    | °C       |
-| Cathode inlet temperature #2    | °C       |
-| Cathode outlet temperature #1   | °C       |
-| Cathode outlet temperature #2   | °C       |
-| Primary water inlet flow #1     | SLPM     |
-| Primary water inlet flow #2     | SLPM     |
+---
 
-# Purpose of the  Sensors
-- Stack voltage and load current refer to the voltage and current at the system's output.
+# 🧪 Sensor Description
 
-- Anode inlet/outlet pressure sensor measures pressure changes as hydrogen enters and exits the anode.
+| 🧾 **Sensor Measurement**          | 📐 **Unit** |
+|-----------------------------------|-------------|
+| Stack Voltage                     | V           |
+| Load Current                      | A           |
+| Anode Reactant Flow               | SLPM        |
+| Anode Inlet Pressure #1           | mbar        |
+| Anode Inlet Pressure #2           | mbar        |
+| Anode Outlet Pressure #1          | mbar        |
+| Anode Outlet Pressure #2          | mbar        |
+| Cathode Air Inlet Flow            | SLPM        |
+| Water Inlet Temperature           | °C          |
+| Primary Water Inlet Pressure #1   | mbar        |
+| Primary Water Inlet Pressure #2   | mbar        |
+| Cathode Inlet Pressure #1         | mbar        |
+| Cathode Inlet Pressure #2         | mbar        |
+| Cathode Outlet Pressure #1        | mbar        |
+| Cathode Outlet Pressure #2        | mbar        |
+| Cathode Stoichiometry             | N/A         |
+| Cathode Inlet Temperature #1      | °C          |
+| Cathode Inlet Temperature #2      | °C          |
+| Cathode Outlet Temperature #1     | °C          |
+| Cathode Outlet Temperature #2     | °C          |
+| Primary Water Inlet Flow #1       | SLPM        |
+| Primary Water Inlet Flow #2       | SLPM        |
 
-- Cathode air inlet flow sensor monitors the oxygen supplied to the cathode.
+---
 
-- Water inlet temperature sensor detects the temperature of incoming water to help regulate system cooling.
+# 🎯 Purpose of the Sensors
 
-- Primary water inlet pressure sensors measure the pressure of the incoming water.
+- 🔌 **Stack Voltage** and **Load Current** reflect the system's electrical output.
+- 🧪 **Anode Inlet/Outlet Pressure Sensors** measure pressure changes as hydrogen flows through the anode.
+- 💨 **Cathode Air Inlet Flow Sensor** monitors the oxygen supplied to the cathode.
+- 🌡️ **Water Inlet Temperature Sensor** ensures cool water enters to regulate system temperature.
+- 💧 **Primary Water Inlet Pressure Sensors** measure incoming water pressure (in SLPM).
+- ⚙️ **Cathode Inlet/Outlet Pressure Sensors** monitor and regulate air pressure entering/leaving the cathode.
+- 🌬️ **Cathode Inlet/Outlet Temperature Sensors** measure the temperature of air flowing through the cathode.
+- ⚖️ **Cathode Stoichiometry Sensor** calculates the required oxygen-to-hydrogen ratio for each fuel cell reaction.
 
-    - These pressure sensors measure in SLPM (Standard Liters Per Minute).
+---
 
-- Cathode inlet and outlet pressure sensors regulate and monitor air pressure entering and exiting the cathode.
-
-- Cathode inlet and outlet temperature sensors measure the temperature of air entering and leaving the cathode.
-
-- Cathode stoichiometry sensor determines the oxygen-to-hydrogen ratio required for each reaction.
