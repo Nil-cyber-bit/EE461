@@ -8,7 +8,7 @@
 *Figure1: Shows how the data retrieved form source was organised*
 
 ## Script Used
-* 
+* [Jump to file](02.Data_Preprocessing/Combining_Data.md)
 
 # Combined Data
 * The entire dataset was combined in 3 excel tables (.xlsx files).
