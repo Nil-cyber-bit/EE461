@@ -1,4 +1,4 @@
-# 📊 DATASET DESCRIPTION
+# DATASET DESCRIPTION
 
 To study the condition of the **PEMFC**, data from various sensors monitoring the system are utilized. The sensor data is divided into three classes:
 
@@ -8,7 +8,6 @@ To study the condition of the **PEMFC**, data from various sensors monitoring th
 
 Throughout this project, they will be referred to as **normal**, **faulty**, or **unknown**.
 
----
 
 ## ✅ Normal Sensor Data
 
@@ -16,7 +15,6 @@ Throughout this project, they will be referred to as **normal**, **faulty**, or 
 - Indicates healthy system performance without any recorded faults.  
 - Represents baseline behavior of the PEMFC with consistent sensor readings.
 
----
 
 ## ⚠️ Faulty Sensor Data
 
@@ -28,7 +26,6 @@ Throughout this project, they will be referred to as **normal**, **faulty**, or 
   - Distinct changes in sensor readings  
   - Activation of system error indicators
 
----
 
 ## ❓ Unknown Sensor Data
 
@@ -39,18 +36,15 @@ Throughout this project, they will be referred to as **normal**, **faulty**, or 
   - Reflects a healthy state upon deeper analysis  
 - Used to **challenge** the diagnostic system’s ability to distinguish false positives.
 
----
 
-# 🗃️ Data Preview
+# Data Preview
 
 
 ![Preview of the dataset table showing rows of labeled data](https://github.com/user-attachments/assets/05711649-3494-4b0d-b4ba-092a8337b3fe)
 
 *Figure 1: Preview of Excel data for one class*
 
----
-
-# 🧪 Sensor Description
+# Sensor Description
 
 | 🧾 **Sensor Measurement**          | 📐 **Unit** |
 |-----------------------------------|-------------|
@@ -77,9 +71,8 @@ Throughout this project, they will be referred to as **normal**, **faulty**, or 
 | Primary Water Inlet Flow #1       | SLPM        |
 | Primary Water Inlet Flow #2       | SLPM        |
 
----
 
-# 🎯 Purpose of the Sensors
+# Purpose of the Sensors
 
 -  **Stack Voltage** and **Load Current** reflect the system's electrical output.
 - **Anode Inlet/Outlet Pressure Sensors** measure pressure changes as hydrogen flows through the anode.
@@ -90,5 +83,4 @@ Throughout this project, they will be referred to as **normal**, **faulty**, or 
 - **Cathode Inlet/Outlet Temperature Sensors** measure the temperature of air flowing through the cathode.
 - **Cathode Stoichiometry Sensor** calculates the required oxygen-to-hydrogen ratio for each fuel cell reaction.
 
----
 
