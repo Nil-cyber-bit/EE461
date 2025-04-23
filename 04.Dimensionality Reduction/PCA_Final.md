@@ -7,9 +7,6 @@ Applying PCA for the total dataset table (normal, faulty, and unknown data):
  Figure 1: The pareto chart for the total normalized data.
 
 The above figure is an illustration of the variance of each principal component in the dataset after PCA. The blue bar represents the variance for each principal component and the orange line represents the cumulative variance explained. As observed, the largest variance is around 35%. Moreover, the variance explained decreases as the PC gets higher, where it contributes less to the overall variation in data. This chart is helpful to understand which components are most important in capturing the patterns of the data.
-<div style="text-align: justify;">
-  The above figure is an illustration of the variance of each principal component in the dataset after PCA. The blue bar represents the variance for each principal component and the orange line represents the cumulative variance explained. As observed, the largest variance is around 35%. Moreover, the variance explained decreases as the PC gets higher, where it contributes less to the overall variation in data. This chart is helpful to understand which components are most important in capturing the patterns of the data.
-</div>
 
 
 02. Plotting the Bi-plot for the PCA score values. 
@@ -29,6 +26,7 @@ Figure 3: The Scatter plot for normalized data.
 
 The above figure represents the data points in a 2D space defined by PCA1 and PCA2. This plot shows how the data points are distributed along the axes of PCA1 and PCA2. These axes represent the directions of the maximum variance in the dataset. Moreover, the points that are isolated from the main cluster of data can be identified as outliers. This plot is helpful to reduce the complexity of the dataset while retaining the meaningful information.
 
+
 04. Plotting the Scatter3 plot for the PCA score values. 
 
 ![Picture4](https://github.com/user-attachments/assets/8f697a12-e739-479e-acc6-00248a8f86a9)
@@ -40,6 +38,7 @@ Figure 4:The Scatter3 plot for normalized data.
  Figure 5: The closer view of the Scatter3 plot for normalized data.
 
 The above Figure 4 and Figure 5 are the scatter3 plot for the normalized data, the first plot is the original view and the second plot is a closer view of the plot. It visualizes the data in 3D. This highlights the distribution across PCA1, PCA2 and PCA3, where the high-dimensional data are reduced to three dimensions. Each color of points is a cluster of the data. This plot is helpful to visualize the insight od the data structure, identify the cluster and outliers and the key patterns for modeling. 
+
 
 05. Plotting the Gscatter plot for the PCA score values. 
 
