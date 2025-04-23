@@ -2,9 +2,7 @@ Applying PCA for the total dataset table (normal, faulty, and unknown data):
 
 Plotting the pareto chart for the PCA values. 
 
-![pareto]("C:\Users\HP\Downloads\Picture1.png")
-
-
+![Picture1](https://github.com/user-attachments/assets/7dcbe494-94f6-4e9c-aa2c-9641e8b660eb)
 
  Figure 1: The pareto chart for the total normalized data.
 
