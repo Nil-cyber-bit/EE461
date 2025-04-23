@@ -47,6 +47,7 @@ The above Figure 4 and Figure 5 are the scatter3 plot for the normalized data, t
 Figure 6: The Gscatter plot for normalized data.
 
 ![Picture7](https://github.com/user-attachments/assets/68ee847e-78ee-4dda-ac56-69ea11982849)
+![Picture8](https://github.com/user-attachments/assets/a225b336-d535-4b6e-8403-25ee9e8de04b)
 
  Figure 7: The closer view of the Gscatter plot for normalized data.
 
