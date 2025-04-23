@@ -46,11 +46,7 @@ The above Figure 4 and Figure 5 are the scatter3 plot for the normalized data, t
 
 Figure 6: The Gscatter plot for normalized data.
 
-![picture9](https://github.com/user-attachments/assets/b3c43d3e-73dd-45a0-8a14-d73af4e509b3)
-
- Figure 7: The closer view of the Gscatter plot for normalized data.
-
-The above figure 6 and Figure 7 are the Gscatter plots for the normalized data , the first plot is the original view and the second plot is a closer view. The graph represents how the data points are distributed across PCA1 and PCA2. As observed, blue and red points are overlapping can provide insight into the potential correlations and similarities among the data groups. The spread among the PAC space indicates the behavior of the variance in the dataset by the three components. This graph is used to identify the clusters, patterns of the normalized data. 
+The above figure 6 is the Gscatter plots for the normalized data. The graph represents how the data points are distributed across PCA1 and PCA2. As observed, blue and red points are overlapping can provide insight into the potential correlations and similarities among the data groups. The spread among the PAC space indicates the behavior of the variance in the dataset by the three components. This graph is used to identify the clusters, patterns of the normalized data. 
 
 
 
