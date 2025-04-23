@@ -1,18 +1,8 @@
 Applying PCA for the total dataset table (normal, faulty, and unknown data): 
 
-Applying PCA for the dataset. 
-
-The original normalized dataset table the rows by columns were . The bellow results are the dimension reduction values when PCA was applied to the data: 
-
-
-
- Table 1: The table contains the PCA dimension reduction values for the data. 
-
- 
-
 Plotting the pareto chart for the PCA values. 
 
-
+![pareto]("C:\Users\HP\Downloads\Picture1.png")
 
 
 
