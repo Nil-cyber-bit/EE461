@@ -5,9 +5,12 @@ Applying PCA for the total dataset table (normal, faulty, and unknown data):
   ![Picture1](https://github.com/user-attachments/assets/7dcbe494-94f6-4e9c-aa2c-9641e8b660eb)
 
  Figure 1: The pareto chart for the total normalized data.
-<div style="text-align: justify;">
+
 The above figure is an illustration of the variance of each principal component in the dataset after PCA. The blue bar represents the variance for each principal component and the orange line represents the cumulative variance explained. As observed, the largest variance is around 35%. Moreover, the variance explained decreases as the PC gets higher, where it contributes less to the overall variation in data. This chart is helpful to understand which components are most important in capturing the patterns of the data.
+<div style="text-align: justify;">
+  The above figure is an illustration of the variance of each principal component in the dataset after PCA. The blue bar represents the variance for each principal component and the orange line represents the cumulative variance explained. As observed, the largest variance is around 35%. Moreover, the variance explained decreases as the PC gets higher, where it contributes less to the overall variation in data. This chart is helpful to understand which components are most important in capturing the patterns of the data.
 </div>
+
 
 02. Plotting the Bi-plot for the PCA score values. 
 
