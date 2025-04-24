@@ -18,16 +18,17 @@
 ![Correlation Plot of the 20 Sensors in the normal state](<Correlation Plot of Normal.png>)
 *Figure 03: Correlation Plot of  Sensor data in Normal Operation*
 
-![Correlation Plot of the 20 Sensors in the Faulty state](<Correlation Plot of Faulty.png>)
+![Correlation Plot of Faulty](https://github.com/user-attachments/assets/4e9f5ac5-f836-4ade-a5df-b65c26770a91)
+
 *Figure 03: Correlation Plot of  Sensor data during Faulty Operation*
 
-![Correlation Plot of the 20 Sensors in the Unknown state](<Correlation Plot of Unknown.png>)
+
+![Correlation Plot of Unknown](https://github.com/user-attachments/assets/d32d1a10-e018-43ba-866d-437c68f3b8d2)
+
 
 *Figure 03: Correlation Plot of  Sensor data in Unknown State of Operation*
 ## Observations
-- S1 to S4 are redundant as can be observed form the plot.
-    - The correlation value is NaN since the division by the Standard deviation is 0.
-    - This is possible if all the values are the same.
+- S1 to S4 are redundant as can be observed they were remvoed during normalization.
 - Considering S1 to S4 contain the same values they are not useful for classification problems.
 - **Color Bar** shows that lower correlations values will be in shades of blue. 
     - Lower correlation values indicate uniqueness in data.
