@@ -12,7 +12,7 @@ Different plots will be used to understand and evaluate the data in the classes.
 ![Box Plot for Sensor 5](https://github.com/user-attachments/assets/543fc4d2-fa5e-4b74-889f-bf7e42f2fc48))
 *Figure 02: Box Plot for Sensor 5 showing comparison between the 3 classes*
 
-- The values int he faulty region are extremely varied with numerous outliers.
+- The values in the faulty region are extremely varied with numerous outliers.
     - This could be a result of transient loads or unstable conditions.
 - The normal operation is tightly bound  around a certain value (105).
 - The unknown data is also spread out mid-range.
