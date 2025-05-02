@@ -28,12 +28,12 @@
 
 *Figure 03: Correlation Plot of  Sensor data in Unknown State of Operation*
 ## Observations
-- S1 to S4 are redundant as can be observed they were remvoed during normalization.
+- S1 to S4 are redundant as can be observed they were removed during normalization.
 - Considering S1 to S4 contain the same values they are not useful for classification problems.
 - **Color Bar** shows that lower correlations values will be in shades of blue. 
     - Lower correlation values indicate uniqueness in data.
     - This can be observed in  Normal Operation and Unknown operation.
-
 ---
-
+For these within class plots a positve or negative correlation is expected. This would represent that all sensors are affected in the state and behave similarily.
+---
 # Correlation Between Sensors and Class
