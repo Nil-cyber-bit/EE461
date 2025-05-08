@@ -60,6 +60,21 @@ The following is some of the specification of the trained models.
 
 ![image](https://github.com/user-attachments/assets/29c57988-c47d-4278-bf6e-fc8cf5dbdef6)
 
+Now that the Fine KNN model was selected for the final selection. The following are the confusion matrix and the ROC curve for the fine KNN model. 
+**Confusion Matrix**
+
+![image](https://github.com/user-attachments/assets/eaf5ef8a-3845-457f-811e-4da8157cd01e)
+
+>shows the confusion matrix of the fine KNN model. As shown in the figure, true class 3 was predicted to be in class three for all the datasets, having a 100% >correct prediction.  Class 2 was predicted as class 2 times, while the rest of the times it was correct, and the same for class 1, which was predicted to be class >3 one time.
+
+**ROC CURVE**
+
+![image](https://github.com/user-attachments/assets/75eaf7e0-ec12-444b-8926-558fadbeefc0)
+
+>shows the ROC curve of the KNN model. It shows the plot between the area under the curve (AUC) and the model’s operating point. As shown in the figure, the >model’s operating point is on the same axis as the AUC, indicating the model has good classification performance.  
+
+
+
 
 
 
