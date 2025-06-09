@@ -4,3 +4,4 @@ A PCA reduced dataset refers to a dataset that has been transformed using Princi
 
 Train data is the part of the dataset used to train the machine learning model, it refers to the training portion of a dataset that has been transformed using PCA  to reduce its dimensionality before training a ML model. The below section contains the best three models for the trained PCA:
 
+![image]()
