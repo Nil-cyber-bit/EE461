@@ -43,8 +43,18 @@ The next best model was the Ensemble subspace KNN model, it has an accuracy of 9
 
 ![Image](https://github.com/user-attachments/assets/079aec06-f755-4e02-b643-4f46b6375c81)
 
+The above matrix is commonly used to evaluate the performance of a clssification algorithm, each row represents the actual class, while each column represents the predicted class. The strong diagonal values indicate accurate predictions, meaning the classifer correctly identified most instances.
 
+![Image](https://github.com/user-attachments/assets/7802c237-062a-4b4c-91ca-d1c4925a42de)
+
+The above plot is used to assess the perforamnce of a binary classification model.The curve in the figure suggests a perfect classifier, as it reaches the top-left corner (0,1) and has an Area Under the Curve (AUC) of 1—meaning flawless classification with no errors. 
 
 ![Image](https://github.com/user-attachments/assets/a7a37cd5-2eb7-4723-9df4-e269710d2683)
 
+The above plot is the confusion matrix for PCA, used for evaluating the performance of a classification model. It compares the predicted class labels with the actual class labels and gives insight into how well your model is performing. The diagonal elements (34209, 2222, and 4853) represent correct predictions—these are cases where the model successfully classified data.The off-diagonal elements indicate misclassifications, where the model assigned the wrong label.The shading intensity highlights the distribution of correct predictions, with darker shades representing higher values.
+
 ![Image](https://github.com/user-attachments/assets/5db3e12b-bf64-4b92-9f19-da1eceb7a834)
+
+The above figure is the ROC curve, which is used to evaluate the performance of a binary classification model. The blue line represents the ROC curve, showing the trade-off between sensitivity and specificity.The Area Under the Curve (AUC) is 1, indicating perfect classification—meaning the model distinguishes between the two classes flawlessly.The operating point (blue dot) is positioned at the top-left corner (TPR = 1, FPR = 0), which suggests an ideal classifier.The dashed diagonal line represents random guessing, where a model would perform no better than chance.
+
+This plots and matrixes suggests the model has perfect discrimination, which is rarely achievable in practical applications.
