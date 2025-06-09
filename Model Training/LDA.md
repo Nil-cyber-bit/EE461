@@ -20,7 +20,13 @@ The figure above shows the evaluation matrix for the LDA reduced dataset, it con
 
 The highlighted rows shows the best model in terms of F1-score, we are using F1 score as our matrix due to the data imbalance in our dataset. 
 
-### Model Summary Table
+Based on this we can select coarse tree model as the best LDA model and below are the results for that model.
+
+**Train/Validation confusion matrix**
+
+![image](https://github.com/user-attachments/assets/3c8f6e96-6c75-4232-9744-6f5ef313195f)
+
+
 
 
 
