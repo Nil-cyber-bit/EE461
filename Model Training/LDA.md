@@ -22,9 +22,34 @@ The highlighted rows shows the best model in terms of F1-score, we are using F1 
 
 Based on this we can select coarse tree model as the best LDA model and below are the results for that model.
 
-**Train/Validation confusion matrix**
+**Train Confusion Matrix using the optimizable TREE model** (In python)
 
-![image](https://github.com/user-attachments/assets/3c8f6e96-6c75-4232-9744-6f5ef313195f)
+![image](https://github.com/user-attachments/assets/9ef5cd65-aae2-46c8-b87c-6d485d218290)
+
+**Test Confusion Matrix using the optimizable TREE model** (In python)
+
+![image](https://github.com/user-attachments/assets/b6d77252-767b-4ede-b4ce-0356eebffb3f)
+
+**ROC Curve for train**
+
+![image](https://github.com/user-attachments/assets/684a8133-b637-408f-a18a-6f2378c470fe)
+
+**ROC Curve for test**
+
+![image](https://github.com/user-attachments/assets/b45dfb23-1ed0-4fd8-af56-f46912e834c6)
+
+**Evaluation matrix for train**
+
+![image](https://github.com/user-attachments/assets/ebe6b5be-c68a-4879-ac2d-2126d86f39c2)
+
+
+**Evaluation matrix for test**
+
+![image](https://github.com/user-attachments/assets/0e556e6d-67a8-4fb5-8ee9-042f3c20326a)
+
+
+
+
 
 
 
