@@ -5,6 +5,7 @@ A PCA reduced dataset refers to a dataset that has been transformed using Princi
 Train data is the part of the dataset used to train the machine learning model, it refers to the training portion of a dataset that has been transformed using PCA  to reduce its dimensionality before training a ML model. The below section contains the best three models for the trained PCA:
 
 From all the 33 models, the best performance model was Fine KNN model, it had an accuracy, recall and F1 score of 100. The below plots are the trained and validation plots for the PCA fine KNN model:
+
 ![Image](https://github.com/user-attachments/assets/3c5fdde5-a045-4fcb-866c-fd8a08e1597b)
 
 In the above figure is the confusion matrox for the train data, it evaluates the performance of the model. It compares the predicted class labels to the class labels showing where the model is accurate. the diagonal values represent correclty classifed instances the model correctly predicted those clases, the matrix suggests that the model performs very well, within the misclassifciation.
